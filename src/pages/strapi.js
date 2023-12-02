@@ -4,7 +4,8 @@ import axios from 'axios';
 
 export default (props) => <CmsPage cms='Strapi' {...props} />
 
-export async function getStaticProps() {
+// export async function getStaticProps() {
+export async function getServerSideProps() {
   console.log('about to debug')
   debugger
 
